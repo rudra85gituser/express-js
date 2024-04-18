@@ -1,0 +1,30 @@
+Express.js, or simply Express, is a web application framework for Node.js, a platform for building server-side and networking applications with JavaScript. It is designed to provide a simple and minimalistic web framework for building web applications and APIs.
+
+Express.js provides a robust set of features for web and mobile applications. Some key features include:
+
+ - Routing: Express allows you to define routes to handle different HTTP methods (GET, POST, PUT, DELETE, etc.) and URLs. This makes it easy to create RESTful APIs and handle different types of requests.
+
+ - Middleware: Middleware functions are functions that have access to the request and response objects in an Express application's request-response cycle. They can perform tasks like logging, authentication, parsing request bodies, etc. Express comes with a range of built-in middleware, and you can also create custom middleware for your application.
+
+ - Template engines: Express supports a variety of template engines, such as Pug (formerly Jade), EJS, and Handlebars, which allow you to generate HTML dynamically based on data from your application.
+
+ - Static file serving: Express makes it easy to serve static files (like HTML, CSS, and client-side JavaScript files) from a directory on your server.
+
+ - Error handling: Express provides a simple mechanism for handling errors that occur during the execution of your application, making it easier to debug and manage errors.
+
+Overall, Express.js is a powerful and flexible framework for building web applications and APIs with Node.js, and it is widely used in the Node.js community for its simplicity and extensibility.
+
+
+why express - 
+as we know that node js is all about core module and if we create a api server in node js we have to write a lot of code
+but in express js code becomes 10 times less for api
+
+
+ to create a file inside a folder - type nul > app.js
+
+
+package.json used to manage all paakges and api
+package-lock-lock .json all information about particular api,
+packagenode module stores all dependencies to run express js modules
+
+we can create express application  - we have to create express function  - we have to create express module
